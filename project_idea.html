@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>project idea</title>
+	<link type="text/css" rel="stylesheet" href= " style.css">
+</head>
+<body>
+    <section>
+       <div class="sectionTitle"> <h1> Project Idea </h1></div>
+       <div class="sectionContent">
+        <article>
+        <h2> Overview</h2>
+        <p> This project aims to simplify making <strong> consistant</strong> sourdough bread from scratch. </p>
+        <p> The main challenge with sourdough is understanding the impact of certain variables on your own unique baking and dough rising conditions (i.e. humidity, temp in your kitchen/oven)</p>
+        <p>This is achieved by simplifying the collection of a small set of data, and linking that data to photos taken by the user of the baked bread, and sourdough starter.  </p>
+        <p> The goal is that a user can say "hmm, why didn't this work?" and then can easily track through the history of that loaf and see where they went wrong or right. </p>
+        <p>The data to be recorded is:</p>
+        <ul>
+          <li>Amount of ingredients added (flour, water, starter)</li>
+          <li>how long the bread was left to rise the 1st, 2nd... 3rd rise</li>
+          <li>Temperature of oven</li>
+          <li> time left in oven</li>
+          <li>photos of any of the points when the data was input (i.e. a photo of the dough after rising)</li>
+          <li>Photos of baked breads</li>
+        </ul>
+    </article>
+</div>
+<article>
+	<div class="sectionContent">
+        <h2> Motivation </h2>
+        
+        
+
+        <p>During the Covid-19 social distancing, and working from home era, many people have become home bakers. Anecdotally Evidenced by the sold out isles of flour the 2nd quarter of 2020 in supermarket isles across the country. </p>
+
+        <p>Furthermore, the graph below shows the trend of people searching for "sourdough" globaly during the covid-19 isolation period. We truely are living in the golen age of home made sourdough </p>
+         <p> Personally, I have found that there is a lot of hit and miss with baking sourdough, because it's really hard to determine what went wrong in the process between a good and a bad bake, so I'd like a way of easily recording the relevant variables that can be easily controlled and comparing them against final bakes</p>
+         <p> Because when it comes down to the fundementals of sourdough baking, every yeast culture in a every soughdough starter is unique. Every starter will produce different breads under the exact same baking conditions.
+        <p> When learning to program, the best way is to have a project that you can be passionate that you can work towards, I think this one fits the bill.</p>
+    </div>
+    <div class="sectionContent">
+    	<h2> popularity of searches for soughdugh in the last 12 months worldwide</h2>
+        <div class="chart" id="googleTrends">
+         <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2213_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"sourdough","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=sourdough&date=today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+        </div>
+    </div>
+    <div class="sectionContent">
+       
+
+
+
+        <h2> Description</h2>
+        <p> Primarily this service is offered as web-app, written in javascript.</p>
+     <p>This app will prompt people to enter the following data when starting a baking session:</p>
+        <ul>
+          <li>Weight of the starter added</li>
+          <li> water added (by weight)</li>
+          <li>flour added (by weight)</li>
+          <li>how long the bread is kneeded, or if done on a machine, how long and what setting it is kneeded at</li>
+          <li>photo of the dough after kneeding</li>
+          <li>how long the bread is left to rise</li>
+          <li>photo of dough after rise</li>
+          <li>how long the bread is kneeded for the 2nd time</li>
+          <li>photo dough after 2nd rise</li>
+          <li> how long the dough is left to rise for a 2nd time</li>
+          <li>temp of oven</li>
+          <li>lengh of time in oven</li>
+          <li> photo of baked bread out of oven.</li>
+        </ul>
+
+        <p> This data will be visualed on a timeline of their starter, as all the measurements will be tracked against the time they are entered </p>
+        <p> The user has the option of scrolling back through their timeline, and looking at photos of their starter at various points in its life.</p>
+        <p> The user would also have an option for scrolling through a list of their finished loafs, and then scrolling through the process that got that bake. i.e. how long was the bread 
+        proved, what flour was used, what temperature the oven was at, and for how long</p>
+        <p> The aim is, that when a user loads up timeline interface, they can scroll backwards in time, see a photo of a finished loaf they baked, and then look at the conditions that lead to that bake </p>
+
+        <p> The app would function on a simple free model with advertisments, with the option to pay for an advertisments free version for a nominal fee <p>
+   
+        <p> If all goes well, any user should be able to easily get baked bread that looks just like the one below that I baked this week:
+
+  
+        <center>
+          <div id="lucas bread">
+          <img src="lucasBread.jpeg" width= "673" height = "450" = alt="photo of my bread">
+          </div>
+        </center>
+  
+      
+</div>
+ <div class="sectionContent">
+
+        <h2> Tools and Technologies</h2>
+      
+        <p> This app would primarily written in javascript as a web app, as that is the edge of my currently programming limits that I am learning and exploring.</p>
+        <p> There is potential to delpoy the app through AWS.</p>
+        <p> This would be the first attempt at a full web app, and I anticipate significant learning and obstacles along the way.</p>
+     
+        
+
+        <h2> Skills Required</h2>
+        <p> This app is aimed as a firt "goal" project for myself, that I want to be able to develop myself eventually as an example of what a full stack developer would do.</p>
+        <p> Ideally, it would utilise simialar skills to what I have seen in advertisements for full stack developers, spesifically I think this will require knowledge with NodeJS, SQL as it will be basically one big data base, with the front faceing being developed on Java.
+        <p> </p>
+
+        <h2> Outcome</h2>
+      
+        <p> Ideally this app would be a succesful first test and adventure into the programming world. Ideally it would solve the problem that I have expirienced of inconsistent baking, and inconsistant starter by faciliting the easy tracking of the journey of my starter.</p>
+
+        </article>
+        </div>
+
+
+
+      </div>
+    </section>
+    <section>
+    <div class="sectionContent">
+    	<h2> <a href="index.html">Home Page</a> </h2>
+    </div>
+    
+    </section>
+
+</body>
+</html>
